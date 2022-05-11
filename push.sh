@@ -45,6 +45,7 @@ echo
 git add .
 echo -en "\t\tEnter your message : "
 read message
+echo 
 
 git commit -m "${message}"
 git push origin master
